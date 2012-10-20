@@ -28,9 +28,6 @@ function love.load()
 	base.color = {0, 255, 0}
 	base.vel = 0
 	
-
-	enemyRespawnCounter = enviroment.EnemyRespawnLimit
-	
 	
 	enviroment.rocksActivated = false
 	rockCounter = {counter = 0, limit = 0.3}
